@@ -15,7 +15,7 @@ return new class extends Migration
          * El if se usa para no volver a migrar la tabla.
          * 
          */
-        if (Schmema::hasTable('personal_access_tokens')){
+        if (Schema::hasTable('personal_access_tokens')){
             return;
         }
         /**

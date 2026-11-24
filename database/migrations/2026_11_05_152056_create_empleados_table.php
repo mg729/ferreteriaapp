@@ -20,7 +20,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        if (Schmema::hasTable('empleados')){
+        if (Schema::hasTable('empleados')){
             return;
         }
         /**

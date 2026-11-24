@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        if (Schmema::hasTable('jobs')){
+        if (Schema::hasTable('jobs')){
             return;
         }
 

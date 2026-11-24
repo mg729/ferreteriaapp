@@ -11,7 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
-        if (Schmema::hasTable('cache')){
+        if (Schema::hasTable('cache')){
             return;
         }
         Schema::create('cache', function (Blueprint $table) {
